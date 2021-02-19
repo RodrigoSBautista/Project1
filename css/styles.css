@@ -19,7 +19,6 @@
 }
 
 #testimonials {
-  padding: 14vh 11vw;
   text-align: center;
   background: var(--melon);
   color: var(--text-white);
@@ -30,6 +29,22 @@
   padding-bottom: 11vh;
 }
 
+#pricing {
+  color: black;
+  padding: 13vh 7vw;
+  text-align: center;
+}
+
+#cta {
+  text-align: center;
+}
+
+#footer {
+  padding-top: 14vh;
+  padding-bottom: 8vh;
+  text-align: center;
+}
+
 h1 {
   font-weight: 900;
   line-height: 1.5;
@@ -38,7 +53,9 @@ h1 {
 
 h2 {
   font-weight: 700;
-  color: var(--text-white);
+}
+
+h2.testimonial-text {
   line-height: 2;
   margin-bottom: 4vh;
 }
@@ -120,10 +137,31 @@ div.press-cont {
   margin-bottom: 2vh;
 }
 
-.highlight:hover {
+i.highlight:hover {
   color: var(--red);
+}
+
+.btn-color {
+  background: var(--melon);
+  color: var(--text-white);
+}
+
+button.highlight:hover {
+  background-color: var(--red);
+  color: var(--text-white);
+}
+
+.card-text {
+  color: var(--grey);
 }
 
 .press-items {
   align-items: center;
+}
+
+.carousel-item {
+  padding: 14vh 11vw;
+}
+h2.montserrat {
+  font-family: "Montserrat", sans-serif;
 }
