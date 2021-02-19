@@ -1,0 +1,129 @@
+:root {
+  font-family: "Montserrat", sans-serif;
+  --melon: #ef8172;
+  --red: #ff4c68;
+  --text-white: white;
+  --grey: #8f8f8f;
+}
+
+#title {
+  background: var(--red);
+  color: var(--text-white);
+  height: 680px;
+}
+
+#features {
+  text-align: center;
+  padding: 19vh 11vw;
+  color: var(--grey);
+}
+
+#testimonials {
+  padding: 14vh 11vw;
+  text-align: center;
+  background: var(--melon);
+  color: var(--text-white);
+}
+
+#press {
+  background: var(--melon);
+  padding-bottom: 11vh;
+}
+
+h1 {
+  font-weight: 900;
+  line-height: 1.5;
+  margin-bottom: 6vh;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--text-white);
+  line-height: 2;
+  margin-bottom: 4vh;
+}
+
+h3 {
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+}
+
+p {
+  font-weight: 500;
+}
+
+.big-cont {
+  padding: 9vh 2vw 2vh 8vw;
+}
+
+.btn {
+  margin: 0 0.7rem;
+}
+
+a.navbar-brand {
+  font-size: 2.3rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+li.nav-item {
+  font-size: 1.18rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+img.iphone {
+  width: 280px;
+  transform: rotate(20deg);
+}
+
+img.dog-img {
+  margin-bottom: 2vh;
+  border-radius: 2vw;
+  width: 15vw;
+}
+
+img.press-logo {
+  width: 17vw;
+}
+
+div.cont-1 {
+  padding-left: 6%;
+  margin-right: 6%;
+}
+
+div.press-cont {
+  padding: 0 6vw;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 1vw;
+  height: 100%;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+::-webkit-scrollbar-thumb {
+  background: lightsteelblue;
+  border-radius: 10px;
+}
+
+.h-title {
+  font-size: calc(1rem + 3vw);
+}
+
+.icon {
+  color: var(--melon);
+  margin-bottom: 2vh;
+}
+
+.highlight:hover {
+  color: var(--red);
+}
+
+.press-items {
+  align-items: center;
+}
