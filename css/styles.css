@@ -1,5 +1,6 @@
 :root {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
   --melon: #ef8172;
   --red: #ff4c68;
   --text-white: white;
@@ -7,52 +8,50 @@
 }
 
 #title {
+  text-align: left;
   background: var(--red);
   color: var(--text-white);
   height: 680px;
 }
 
 #features {
-  text-align: center;
-  padding: 19vh 11vw;
+  padding: 16% 7%;
   color: var(--grey);
 }
 
 #testimonials {
-  text-align: center;
   background: var(--melon);
   color: var(--text-white);
 }
 
 #press {
   background: var(--melon);
-  padding-bottom: 11vh;
+  padding-bottom: 11%;
 }
 
 #pricing {
-  color: black;
-  padding: 13vh 7vw;
-  text-align: center;
+  padding: 11% 8%;
 }
 
 #cta {
-  text-align: center;
+  background-color: var(--red);
+  padding: 11% 0;
+  color: var(--text-white);
 }
 
 #footer {
-  padding-top: 14vh;
-  padding-bottom: 8vh;
-  text-align: center;
+  padding-top: 11%;
+  padding-bottom: 5%;
 }
 
 h1 {
   font-weight: 900;
   line-height: 1.5;
-  margin-bottom: 6vh;
 }
 
 h2 {
   font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2.testimonial-text {
@@ -69,12 +68,14 @@ p {
   font-weight: 500;
 }
 
+/* Nav Bar */
+
 .big-cont {
-  padding: 9vh 2vw 2vh 8vw;
+  padding: 9% 2vw 2vh 8vw;
 }
 
 .btn {
-  margin: 0 0.7rem;
+  margin: 0.7rem 0.7rem;
 }
 
 a.navbar-brand {
@@ -101,7 +102,7 @@ img.dog-img {
 }
 
 img.press-logo {
-  width: 17vw;
+  width: 16vw;
 }
 
 div.cont-1 {
@@ -112,6 +113,7 @@ div.cont-1 {
 div.press-cont {
   padding: 0 6vw;
   display: flex;
+  align-items: center;
 }
 
 ::-webkit-scrollbar {
@@ -130,6 +132,11 @@ div.press-cont {
 
 .h-title {
   font-size: calc(1rem + 3vw);
+  margin-bottom: 14%;
+}
+
+.cta-title {
+  margin-bottom: 6%;
 }
 
 .icon {
@@ -139,6 +146,11 @@ div.press-cont {
 
 i.highlight:hover {
   color: var(--red);
+}
+
+.media {
+  padding: 0 1vw 3vh 1vw;
+  font-size: 1.5rem;
 }
 
 .btn-color {
@@ -155,13 +167,21 @@ button.highlight:hover {
   color: var(--grey);
 }
 
-.press-items {
-  align-items: center;
+.carousel-item {
+  padding: 11% 5%;
 }
 
-.carousel-item {
-  padding: 14vh 11vw;
+a.anchor-media {
+  color: black;
 }
-h2.montserrat {
-  font-family: "Montserrat", sans-serif;
+
+@media only screen and (max-width: 600px) {
+  .press-logo {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .twn-logo {
+    width: 13vw;
+  }
 }
